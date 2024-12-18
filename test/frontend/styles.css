@@ -1,0 +1,111 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  .main-content {
+    display: flex;
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+    margin: 20px;
+    gap: 20px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    flex: 1 1 200px; /* Sidebar takes minimum 200px width */
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  /* Content Area */
+  .content {
+    flex: 3; /* Content area takes up 3x the space of the sidebar */
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Medium screens: tablets */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .main-content {
+      flex-direction: column; /* Stack sidebar and content */
+    }
+  
+    .sidebar {
+      order: 2; /* Move sidebar below content */
+    }
+  }
+  
+  /* Small screens: phones */
+  @media (max-width: 480px) {
+    .nav a {
+      display: block; /* Stack nav links vertically */
+      margin: 5px 0;
+    }
+  
+    .card {
+      text-align: center;
+    }
+  }
+  

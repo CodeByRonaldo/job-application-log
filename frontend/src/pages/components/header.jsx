@@ -17,7 +17,7 @@ export default function Header() {
                     </form>
                 </div>
                 <div className="nav-bar-right">
-                        <Link to='/home' className='nav-link'>Home</Link>
+                        <Link to='/' className='nav-link'>Home</Link>
                         <Link to='/new-app-record' className='nav-link'>New Application</Link>
                         <Link to='/profile' className='nav-link'>Profile</Link>
                 </div>

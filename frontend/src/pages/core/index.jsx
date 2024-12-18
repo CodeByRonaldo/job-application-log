@@ -15,7 +15,7 @@ export default function Home() {
                         <div className="company-header">
                             <h3>Company A</h3>
                                 <div className="app-track-info">
-                                <p className='app-track-recent'>Recent Apr. 19 2024</p>
+                                <p className='app-track-recent'>Recent: Apr. 19, 2024</p>
                                 <p className='app-track-frequency'>Sent: 22 Applications</p>
                             </div>
                         </div>

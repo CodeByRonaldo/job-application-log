@@ -12,3 +12,6 @@ were successful or unsuccessful.
 - [ ] \(Optional) **Interview Scheduler**: Integrate with a calendar app to scheduler interviews and reminders.
 - [ ] \(Optional) **Community Forum**: Create a forum where users can share experiences, ask questions, and support each other.
 - [ ] \(Optional) **Chatting Feature**: Integrate chat to communicate one specific individual (or many).
+
+## Milestone
+* **2025/01/07**: The general content has been generated, other features will be added like the ability to edit your profile, edit applications, see more analytical charts to draw more conclusions from the short informal card in the home-page. Slowly working on the backend as well.

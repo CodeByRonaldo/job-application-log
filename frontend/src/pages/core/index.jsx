@@ -1,5 +1,4 @@
 import React from 'react';
-import { useNavigate, Link } from 'react-router-dom';
 import './index.css'
 
 import Header from '../components/header.jsx';
@@ -19,7 +18,7 @@ export default function Home() {
                             </div>
                         </div>
                         <p className='visual-placeholder'>Visualization of how many times user applied to the company</p>
-                        <p className='app-track-status'>Offered: 1 &nbsp; &nbsp; Rejected: 21 &nbsp; &nbsp; Interviewed: 3</p>
+                        <p className='app-track-status'>Offered: 1 &nbsp; &nbsp; &nbsp; Rejected: 21 &nbsp; &nbsp; &nbsp; Interviewed: 3</p>
                     </div>
                 </div>
             </div>
